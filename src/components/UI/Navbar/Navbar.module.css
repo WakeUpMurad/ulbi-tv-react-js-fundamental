@@ -1,0 +1,29 @@
+.navbar {
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    background: lightgray;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0);
+    transition: 0.25s ease;
+}
+
+.navbar__links {
+    margin-left: auto;
+}
+
+.navbar__link {
+    padding: 10px;
+}
+
+.navbar__scrolled {
+    background-color: #fff;
+    box-shadow: 0 12px 34px -11px rgb(65 62 101 / 10%);
+}
