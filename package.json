@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "homepage": "https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/",
+  "homepage": "https://wakeupmurad.github.io/ulbi-tv-react-js-fundamental/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,7 +9,6 @@
     "@testing-library/user-event": "13.5.0",
     "axios": "^0.26.1",
     "classnames": "^2.3.1",
-    "gh-pages": "^4.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-redux": "^8.0.1",
@@ -38,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
